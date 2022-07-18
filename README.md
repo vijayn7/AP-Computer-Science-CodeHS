@@ -3,16 +3,16 @@ This repository will contain answers to all the exercises in the CodeHS AP Compu
 I highly recommend that you attempt to solve the exercises first before taking a look at these.
 
 ## Unit List:
-- [X] Add Unit 1: Primitive Types
-- [X] Add Unit 2: Using Objects
-- [X] Add Unit 3: Boolean Expressions and IF Statements
-- [X] Add Unit 4: Iteration
-- [X] Add Unit 5: Writing Classes
-- [X] Add Unit 6: Array
-- [X] Add Unit 7: ArrayList
-- [ ] Add Unit 8: 2D Array
-- [ ] Add Unit 9: Inheritance
-- [ ] Add Unit 10: Recursion
+- [X] Unit 1: Primitive Types
+- [X] Unit 2: Using Objects
+- [X] Unit 3: Boolean Expressions and IF Statements
+- [X] Unit 4: Iteration
+- [X] Unit 5: Writing Classes
+- [X] Unit 6: Array
+- [-] Unit 7: ArrayList
+- [ ] Unit 8: 2D Array
+- [ ] Unit 9: Inheritance
+- [ ] Unit 10: Recursion
 
 ## Contact Me:
 Feel free to reach out to me here:
