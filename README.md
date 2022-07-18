@@ -9,13 +9,13 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 4: Iteration
 - [X] Unit 5: Writing Classes
 - [X] Unit 6: Array
-- [-] Unit 7: ArrayList
+- [~] Unit 7: ArrayList
 - [ ] Unit 8: 2D Array
 - [ ] Unit 9: Inheritance
 - [ ] Unit 10: Recursion
 
 ## Contact Me:
 Feel free to reach out to me here:
-- Instagram: [@31Carlton7](https://www.instagram.com/vijay_n7_/)
+- Instagram: [@vijay_n7_](https://www.instagram.com/vijay_n7_/)
 - LinkedIn: [Vijay Nannapuraju](https://www.linkedin.com/in/vijay-nannapuraju-014983239/)
 - Email: vijaynannapuraju@gmail.com
