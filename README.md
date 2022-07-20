@@ -9,7 +9,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 4: Iteration
 - [X] Unit 5: Writing Classes
 - [X] Unit 6: Array
-- [ ] Unit 7: ArrayList
+- [x] Unit 7: ArrayList
 - [ ] Unit 8: 2D Array
 - [ ] Unit 9: Inheritance
 - [ ] Unit 10: Recursion
