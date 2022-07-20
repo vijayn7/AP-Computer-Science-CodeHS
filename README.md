@@ -8,7 +8,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 3: Boolean Expressions and IF Statements
 - [X] Unit 4: Iteration
 - [X] Unit 5: Writing Classes
-- [ ] Unit 6: Array
+- [X] Unit 6: Array
 - [ ] Unit 7: ArrayList
 - [ ] Unit 8: 2D Array
 - [ ] Unit 9: Inheritance
