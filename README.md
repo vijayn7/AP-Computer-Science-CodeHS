@@ -6,7 +6,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 1: Primitive Types
 - [X] Unit 2: Using Objects
 - [X] Unit 3: Boolean Expressions and IF Statements
-- [ ] Unit 4: Iteration
+- [X] Unit 4: Iteration
 - [ ] Unit 5: Writing Classes
 - [ ] Unit 6: Array
 - [ ] Unit 7: ArrayList
