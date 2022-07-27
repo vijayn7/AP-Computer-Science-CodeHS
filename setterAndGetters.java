@@ -13,8 +13,8 @@ public class setterAndGetters {
             }
             System.out.print("Enter variable Type: ");
             String type = sc.next();
-            String setter = "public void set" + name + "(" + type + " " + name + ") {\n    this." + name + " = " + name + ";\n}";
-            String getter = "public " + type + " get" + name + "(" + type + " " + name + ") {\n    return " + name + ";\n}";
+            String setter = "public void set" + name.substring(0, 1).toUpperCase() + name.substring(1, name.length()) + "(" + type + " " + name + ") {\n    this." + name + " = " + name + ";\n}";
+            String getter = "public " + type + " get" + name.substring(0, 1).toUpperCase() + name.substring(1, name.length()) + "() {\n    return " + name + ";\n}";
             methods.add(setter);
             methods.add(getter);
         }
