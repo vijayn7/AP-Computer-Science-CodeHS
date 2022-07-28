@@ -1,0 +1,4 @@
+public static int sumStrings(String one, String two, String three)
+{
+    return Integer.parseInt(one) + Integer.parseInt(two) + Integer.parseInt(three);
+}

@@ -1,0 +1,10 @@
+public boolean phraseContainsKey(String phrase, String key)
+{
+    for (int i = 0; i < phrase.length() - key.length(); i++) {
+        String charcter = phrase.substring(i, i + key.length());
+        if (charcter.equals(key)) {
+            return true;
+        }
+    }
+    return false;
+}

@@ -1,0 +1,11 @@
+public boolean isLowerCase(String phrase)
+    {
+        for (int i = 0; i < phrase.length(); i++) {
+            String character = phrase.substring(i, i + 1);
+            String lc = phrase.toLowerCase().substring(i, i + 1);
+            if (!character.equals(lc)) {
+                return false;
+            }
+        }
+        return true;
+    }

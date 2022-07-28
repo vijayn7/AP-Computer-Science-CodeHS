@@ -1,0 +1,10 @@
+public int findUpperKey(String phrase, String key)
+{
+    for (int i = 0; i < phrase.length() - key.length(); i++) {
+        String sub = phrase.substring(i, i + key.length());
+        if (sub.equals(key.toUpperCase())) {
+            return i;
+        }
+    }
+    return -1;
+}

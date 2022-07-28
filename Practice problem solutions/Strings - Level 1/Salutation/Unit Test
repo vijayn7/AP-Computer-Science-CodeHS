@@ -1,0 +1,5 @@
+public String salutation(String  name)
+{
+    String[] arr = name.split(" ");
+    return "Mr. " + arr[1];
+}
