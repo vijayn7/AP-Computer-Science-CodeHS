@@ -16,9 +16,9 @@ I highly recommend that you attempt to solve the exercises first before taking a
 
 ## Practice Probles:
 - [ ] Level 1:
-  - [ ] Basics
-  - [ ] Strings
-  - [ ] Math
+  - [X] Basics
+  - [X] Strings
+  - [X] Math
   - [ ] Booleans
   - [ ] Arrays
   - [ ] 2D Array
