@@ -1,5 +1,5 @@
 # AP-Computer-Science-CodeHS
-This repository will contain answers to all the exercises in the CodeHS AP Computer Science course (JAVA).
+This repository contains answers to all the exercises and practice problems in the CodeHS AP Computer Science course (JAVA).
 I highly recommend that you attempt to solve the exercises first before taking a look at these.
 
 ## Unit List:
