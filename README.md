@@ -14,7 +14,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 9: Inheritance
 - [X] Unit 10: Recursion
 
-##Practice Probles:
+## Practice Probles:
 - [ ] Level 1:
   - [ ] Basics
   - [ ] Strings
@@ -24,6 +24,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] 2D Array
   - [ ] ArrayList
   - [ ] Objects
+
 - [ ] Level 2:
   - [ ] Strings
   - [ ] Math
@@ -32,10 +33,12 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] 2D Array
   - [ ] ArrayList
   - [ ] Objects
+
 - [ ] Level 3:
   - [ ] Strings
   - [ ] Arrays
   - [ ] ArrayLists
+
 - [ ] Other:
   - [ ] Recursion
   - [ ] String
