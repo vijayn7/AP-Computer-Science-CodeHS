@@ -11,8 +11,8 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 6: Array
 - [X] Unit 7: ArrayList
 - [X] Unit 8: 2D Array
-- [ ] Unit 9: Inheritance
-- [ ] Unit 10: Recursion
+- [X] Unit 9: Inheritance
+- [X] Unit 10: Recursion
 
 ## Contact Me:
 Feel free to reach out to me here:
