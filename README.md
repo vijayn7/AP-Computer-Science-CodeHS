@@ -17,6 +17,28 @@ I highly recommend that you attempt to solve the exercises first before taking a
 ##Practice Probles:
 - [ ] Level 1:
   - [ ] Basics
+  - [ ] Strings
+  - [ ] Math
+  - [ ] Booleans
+  - [ ] Arrays
+  - [ ] 2D Array
+  - [ ] ArrayList
+  - [ ] Objects
+- [ ] Level 2:
+  - [ ] Strings
+  - [ ] Math
+  - [ ] Booleans
+  - [ ] Arrays
+  - [ ] 2D Array
+  - [ ] ArrayList
+  - [ ] Objects
+- [ ] Level 3:
+  - [ ] Strings
+  - [ ] Arrays
+  - [ ] ArrayLists
+- [ ] Other:
+  - [ ] Recursion
+  - [ ] String
 
 ## Contact Me:
 Feel free to reach out to me here:
