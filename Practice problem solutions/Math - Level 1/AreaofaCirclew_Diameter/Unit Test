@@ -1,0 +1,4 @@
+public static double getArea(double diameter)
+{
+    return Math.PI * (diameter / 2) * (diameter / 2);
+}

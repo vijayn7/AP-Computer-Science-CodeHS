@@ -1,0 +1,8 @@
+public int productRange(int a, int b)
+{
+    int product = 1;
+    for (int i = a; i <= b; i++) {
+        product*=i;
+    }
+    return product;
+}

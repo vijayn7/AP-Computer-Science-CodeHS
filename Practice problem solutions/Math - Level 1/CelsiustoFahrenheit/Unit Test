@@ -1,0 +1,4 @@
+public double celsiusToFahrenheit(double degrees)
+{
+    return ((9.0/5.0) * degrees) + 32;
+}
