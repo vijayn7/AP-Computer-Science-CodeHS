@@ -20,7 +20,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [X] Strings
   - [X] Math
   - [X] Booleans
-  - [ ] Arrays
+  - [X] Arrays
   - [ ] 2D Array
   - [ ] ArrayList
   - [ ] Objects
