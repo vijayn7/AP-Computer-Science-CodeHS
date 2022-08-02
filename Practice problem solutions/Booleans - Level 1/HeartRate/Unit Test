@@ -1,0 +1,7 @@
+public boolean isHeartRateHealthy(int beats)
+{
+    if (beats >= 60 && beats <= 100) {
+        return true;
+    }
+    return false;
+}

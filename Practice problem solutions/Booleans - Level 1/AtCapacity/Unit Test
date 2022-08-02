@@ -1,0 +1,7 @@
+public boolean atCapacity(int people, int capacity)
+{
+    if (people >= capacity * 0.8) {
+        return true;
+    }
+    return false;
+}

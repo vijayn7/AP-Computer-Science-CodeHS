@@ -1,0 +1,7 @@
+public boolean inOrder(int a, int b, int c)
+{
+    if (a < b && b < c) {
+        return true;
+    }
+    return false;
+}

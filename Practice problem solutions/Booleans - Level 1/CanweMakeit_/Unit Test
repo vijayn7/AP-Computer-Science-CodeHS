@@ -1,0 +1,4 @@
+public static boolean canWeMakeIt(double distance, double totalGallonsLeft, double milesPerGallon)
+{
+    return distance <= totalGallonsLeft * milesPerGallon;
+}
