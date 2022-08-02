@@ -1,0 +1,21 @@
+public static int[][] multiplicationTable(int size)
+{
+    int[][] arr = new int[size][size];
+    
+    for (int i = 0; i < arr.length; i++) {
+        if (i == 0) {
+            for (int j = 0; j < arr.length; j++) {
+                arr[0][j] = j + 1;
+            }
+        }
+        arr[i][0] = i + 1;
+    }
+    
+    for (int i = 1; i < arr.length; i++) {
+        for (int j = 1; j < arr.length; j++) {
+            arr[i][j] = arr[0][i] * arr[j][0];
+        }
+    }
+    
+    return arr;
+}

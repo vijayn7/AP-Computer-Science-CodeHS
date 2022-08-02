@@ -1,0 +1,7 @@
+public static boolean isSquare(int[][] arr)
+{
+    if (arr.length == arr[0].length) {
+        return true;
+    }
+    return false;
+}
