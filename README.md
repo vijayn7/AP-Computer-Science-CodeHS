@@ -26,8 +26,8 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] Objects
 
 - [ ] Level 2:
-  - [ ] Strings
-  - [ ] Math
+  - [X] Strings
+  - [X] Math
   - [ ] Booleans
   - [ ] Arrays
   - [ ] 2D Array
