@@ -28,7 +28,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [ ] Level 2:
   - [X] Strings
   - [X] Math
-  - [ ] Booleans
+  - [X] Booleans
   - [ ] Arrays
   - [ ] 2D Array
   - [ ] ArrayList
