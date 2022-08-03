@@ -26,7 +26,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] Objects
 
 - [ ] Level 2:
-  - [ ] Strings
+  - [X] Strings
   - [ ] Math
   - [ ] Booleans
   - [ ] Arrays
