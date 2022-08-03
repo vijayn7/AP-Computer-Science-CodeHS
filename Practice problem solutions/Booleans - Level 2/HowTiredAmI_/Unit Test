@@ -1,0 +1,10 @@
+public static boolean isTired(int hoursOfSleep, boolean hadCoffee)
+{
+    if (hoursOfSleep < 8) {
+        if (hadCoffee && hoursOfSleep >= 5) {
+            return false;
+        }
+        return true;
+    }
+    return false;
+}

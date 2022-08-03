@@ -1,0 +1,11 @@
+public double addTax(double cost, String state)
+{
+    if (state.equals("CA")) {
+        return cost * 1.0725;
+    } else if (state.equals("KS")) {
+        return cost * 1.065;
+    } else if (state.equals("ME")) {
+        return cost * 1.055;
+    }
+    return cost * 1.07;
+}

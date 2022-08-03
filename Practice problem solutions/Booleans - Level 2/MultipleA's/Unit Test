@@ -1,0 +1,4 @@
+public static boolean multipleAs(String word)
+{
+    return word.toLowerCase().indexOf("a") != word.toLowerCase().lastIndexOf("a");
+}

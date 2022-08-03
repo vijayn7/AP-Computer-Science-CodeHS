@@ -1,0 +1,13 @@
+public int enoughPaintTwo(int small, int large, int total)
+{
+    if (large * 5 > total) {
+        return 0;
+    }
+    
+    total -= large * 5;
+    
+    if (small >= total) {
+        return total;
+    }
+    return -1;
+}
