@@ -22,7 +22,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [X] Booleans
   - [X] Arrays
   - [X] 2D Array
-  - [ ] ArrayList
+  - [X] ArrayList
   - [ ] Objects
 
 - [ ] Level 2:
