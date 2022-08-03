@@ -1,0 +1,4 @@
+public String replaceMeat(String phrase)
+{
+        return phrase.replace("meat", "fruit");
+}

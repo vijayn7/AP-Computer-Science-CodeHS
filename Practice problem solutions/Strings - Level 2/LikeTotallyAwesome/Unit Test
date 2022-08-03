@@ -1,0 +1,7 @@
+public String like(String phrase)
+{
+    if (phrase.substring(0, 5).equals("like ")) {
+        return phrase;
+    }
+    return "like " + phrase;
+}

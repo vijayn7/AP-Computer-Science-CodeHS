@@ -1,0 +1,7 @@
+public String grammer(String phrase)
+{
+    if (phrase.toLowerCase().substring(2, 3).equals("e") || phrase.toLowerCase().substring(2, 3).equals("a") || phrase.toLowerCase().substring(2, 3).equals("i") || phrase.toLowerCase().substring(2, 3).equals("o") || phrase.toLowerCase().substring(2, 3).equals("u")) {
+        return phrase.replace("A", "An");
+    }
+    return phrase;
+}

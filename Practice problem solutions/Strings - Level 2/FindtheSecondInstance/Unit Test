@@ -1,0 +1,15 @@
+public int findSecond(String phrase, String key)
+{
+    int count = 0;
+    for (int i = 0; i < phrase.length() - key.length() + 1; i++) {
+        String string = phrase.substring(i, i + key.length());
+        if (string.equals(key)) {
+            count++;
+        }
+        if (count == 2) {
+            return i;
+        }
+    }
+    
+    return -1;
+}

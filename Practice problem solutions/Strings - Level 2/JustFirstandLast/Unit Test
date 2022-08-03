@@ -1,0 +1,5 @@
+public String justFirstAndLast(String name)
+{
+    String[] arr = name.split(" ");
+    return arr[0] + " " + arr[arr.length - 1];
+}

@@ -1,0 +1,10 @@
+public String reverse(String phrase)
+{
+    String[] arr = phrase.split("");
+    
+    String temp = "";
+    for (int i = arr.length - 1; i >= 0; i--) {
+        temp += arr[i];
+    }
+    return temp;
+}
