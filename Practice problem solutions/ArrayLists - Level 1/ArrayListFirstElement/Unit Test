@@ -1,0 +1,7 @@
+public String firstElement(ArrayList<String> list)
+{
+    if (list.size() == 0) {
+        return "";
+    }
+    return list.get(0);
+}

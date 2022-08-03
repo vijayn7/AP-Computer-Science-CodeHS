@@ -1,0 +1,9 @@
+public ArrayList<Integer> makeArrayList(int max)
+{
+    ArrayList<Integer> arr = new ArrayList<Integer>();
+    
+    for (int i = 1; i <= max; i++) {
+        arr.add(i);
+    }
+    return arr;
+}

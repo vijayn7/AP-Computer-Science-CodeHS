@@ -1,0 +1,9 @@
+public double arrayListSum(ArrayList<Double> list)
+{
+    double sum = 0;
+    
+    for (double number : list) {
+        sum += number;
+    }
+    return sum;
+}
