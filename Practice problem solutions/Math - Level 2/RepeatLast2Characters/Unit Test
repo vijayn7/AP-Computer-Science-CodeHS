@@ -1,0 +1,4 @@
+public static String repeatTwo(String word)
+{
+    return word + word.substring(word.length() - 2, word.length()) + word.substring(word.length() - 2, word.length()) + word.substring(word.length() - 2, word.length());
+}

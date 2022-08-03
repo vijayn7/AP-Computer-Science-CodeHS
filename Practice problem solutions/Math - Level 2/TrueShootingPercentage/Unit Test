@@ -1,0 +1,8 @@
+public double trueShootingPercentage(int pts, int fga, int fta)
+{
+    double tsa = fga + (0.44 * fta);
+    if (tsa == 0) {
+        return 0.0;
+    }
+    return pts / tsa;
+}

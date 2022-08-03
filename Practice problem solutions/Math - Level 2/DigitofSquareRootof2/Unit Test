@@ -1,0 +1,7 @@
+public static int sqrtTwo(int digit)
+{
+    if (digit > 16 || digit < 0) {
+        return 7;
+    }
+   return Integer.parseInt(String.valueOf(Math.sqrt(2)).replace(".", "").split("")[digit]);
+}

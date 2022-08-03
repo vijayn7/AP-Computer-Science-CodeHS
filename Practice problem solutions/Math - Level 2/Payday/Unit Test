@@ -1,0 +1,7 @@
+public static double payDay(int hours, double pay)
+{
+    if (hours > 40) {
+        return 40 * pay + (hours - 40) * pay * 1.5;
+    }
+    return pay * hours;
+}
