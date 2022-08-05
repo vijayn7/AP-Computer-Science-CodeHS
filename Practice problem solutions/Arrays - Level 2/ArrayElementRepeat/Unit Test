@@ -1,0 +1,12 @@
+public String[] repeatElements(String[] array, int numRepeats)
+{
+    String[] arr = new String[array.length * numRepeats];
+    
+    for (int i = 0; i < array.length; i++) {
+        for (int j = i * numRepeats; j < numRepeats + i * numRepeats; j++) {
+            arr[j] = array[i];
+        }
+    }
+    
+    return arr;
+}

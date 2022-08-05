@@ -1,0 +1,11 @@
+public String[] repeatArray(String[] array)
+{
+    String[] arr = new String[array.length * 2];
+    
+    for (int i = 0; i < (arr.length / 2); i++) {
+        arr[i] = array[i];
+        arr[i + array.length] = array[i];
+    }
+    
+    return arr;
+}
