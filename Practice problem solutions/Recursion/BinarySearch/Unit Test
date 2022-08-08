@@ -1,0 +1,27 @@
+public int search(int[] array, int value)
+{
+    return binarySearch(array, value, 0, array.length-1);
+}
+
+public int binarySearch(int[] array, int value, int start, int end)
+{
+    int middle = (start + end)/2;
+		
+	if(end < start){
+		 return -1;
+	} 
+	
+	if (value < array[middle]) {
+		return binarySearch(array, value, start, middle - 1);
+	}
+	
+	if (value > array[middle]) {
+		return binarySearch(array, value, middle + 1, end);
+	}
+	
+	if (value == array[middle]) {
+		return middle;
+	}
+	
+	return -1;
+}

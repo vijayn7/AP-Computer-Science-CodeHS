@@ -1,0 +1,21 @@
+private static int count = 0;
+
+public static int countLetter(String phrase, String letter)
+{
+    if (phrase.length()==1 && phrase.equals(letter)) {
+        int c = count + 1;
+        count = 0;
+        return c;
+    }
+    if (phrase.length()==1) {
+        int c = count;
+        count = 0;
+        return c;
+    }
+    if (!phrase.substring(0,1).equals(letter)) {
+        return countLetter(phrase.substring(1), letter);
+    } else {
+        count++;
+        return countLetter(phrase.substring(1), letter);
+    }
+}
