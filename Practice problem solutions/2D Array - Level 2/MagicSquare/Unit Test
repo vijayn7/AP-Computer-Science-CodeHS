@@ -1,0 +1,72 @@
+public static boolean magical(int[][] square)
+{
+    if (hasRepeats(square)) {
+        return false;
+    }
+    int compareTo = checkRow(square, 0);
+    
+    for (int i = 0; i < square.length; i++) {
+        if (compareTo != checkRow(square, i) || compareTo != checkCol(square, i)) {
+            return false;
+        }
+    }
+    if (checkDiagOne(square) != compareTo || checkDiagTwo(square) != compareTo) {
+        return false;
+    }
+    return true;
+}
+
+public static int checkRow(int[][] square, int row) {
+    int sum = 0;
+    for (int i = 0; i < square.length; i++) {
+        sum += square[row][i];
+    }
+    return sum;
+}
+
+public static int checkCol(int[][] square, int col) {
+    int sum = 0;
+    for (int i = 0; i < square.length; i++) {
+        sum += square[i][col];
+    }
+    return sum;
+}
+
+public static int checkDiagOne(int[][] square) {
+    int sum = 0;
+    
+    for (int i = 0; i < square.length; i++) {
+        sum+=square[i][i];
+    }
+    
+    return sum;
+}
+
+public static int checkDiagTwo(int[][] square) {
+    int sum = 0;
+    
+    for (int i = square.length - 1; i >= 0; i--) {
+        sum+=square[i][i];
+    }
+    
+    return sum;
+}
+
+public static boolean hasRepeats(int[][] square) {
+    for (int i = 0; i < square.length; i++) {
+        for (int j = 0; j < square.length; j++) {
+            int number = square[i][j];
+            
+            if (i != square.length - 1 || j != square.length - 1) {
+                for (int a = i + 1; a < square.length; a++) {
+                    for (int b = j + 1; b < square.length; b++) {
+                        if (number == square[a][b]) {
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return false;
+}

@@ -1,0 +1,8 @@
+public int teamPlusMinus(int[][] games)
+{
+    int sum = 0;
+    for (int[] game : games) {
+        sum += game[0] - game[1];
+    }
+    return sum;
+}
