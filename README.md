@@ -30,8 +30,8 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [X] Math
   - [X] Booleans
   - [X] Arrays
-  - [ ] 2D Array
-  - [ ] ArrayList
+  - [X] 2D Array
+  - [X] ArrayList
   - [ ] Objects
 
 - [ ] Level 3:
@@ -40,7 +40,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] ArrayLists
 
 - [ ] Other:
-  - [ ] Recursion
+  - [X] Recursion
   - [ ] String
 
 ## Contact Me:
