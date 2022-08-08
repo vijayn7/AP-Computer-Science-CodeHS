@@ -40,7 +40,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] ArrayLists
 
 - [ ] Other:
-  - [ ] Recursion
+  - [X] Recursion
   - [ ] String
 
 ## Contact Me:
