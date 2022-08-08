@@ -1,0 +1,14 @@
+public int min(ArrayList<Integer> list)
+{
+    if (list.size() == 0) {
+        return 0;
+    }
+    
+    int min = list.get(0);
+    for (int num : list) {
+        if (num < min) {
+            min = num;
+        }
+    }
+    return min;
+}

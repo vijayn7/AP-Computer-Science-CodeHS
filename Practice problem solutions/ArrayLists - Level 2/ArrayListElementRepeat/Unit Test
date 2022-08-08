@@ -1,0 +1,10 @@
+public ArrayList<String> repeatElements(ArrayList<String> list, int numRepeats)
+{
+    ArrayList<String> arr = new ArrayList<String>();
+    for (String string : list) {
+        for (int i = 0; i < numRepeats; i++) {
+            arr.add(string);
+        }
+    }
+    return arr;
+}
