@@ -41,7 +41,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 
 - [ ] Other:
   - [X] Recursion
-  - [ ] String
+  - [X] String - Loops
 
 ## Contact Me:
 Feel free to reach out to me here:
