@@ -39,7 +39,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] Arrays
   - [ ] ArrayLists
 
-- [ ] Other:
+- [X] Other:
   - [X] Recursion
   - [X] String - Loops
 
