@@ -1,0 +1,11 @@
+public int countDog(String phrase)
+{
+    int count = 0;
+    for (int i = 0; i < phrase.length() - 2; i++) {
+        System.out.println(phrase.substring(i, i + 3));
+        if (phrase.substring(i, i + 3).equals("dog")) {
+            count++;
+        }
+    }
+    return count;
+}

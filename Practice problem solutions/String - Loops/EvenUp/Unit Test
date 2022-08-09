@@ -1,0 +1,19 @@
+public static double evenUp(String phrase)
+{
+    double correct = 0;
+    String[] arr = phrase.split("");
+    
+    for (int i = 0; i < arr.length; i++) {
+        if (i % 2 == 0) {
+            if (arr[i].equals(arr[i].toUpperCase())) {
+                correct++;
+            }
+            continue;
+        }
+        if (arr[i].equals(arr[i].toLowerCase())) {
+            correct++;
+        }
+    }
+    
+    return correct / (double) (phrase.length());
+}

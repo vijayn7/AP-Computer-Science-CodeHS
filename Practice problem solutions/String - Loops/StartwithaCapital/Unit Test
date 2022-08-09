@@ -1,0 +1,17 @@
+public static String initialCap(String phrase)
+{
+    String[] arr = phrase.split(" ");
+    for (int i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].substring(0, 1).toUpperCase() + arr[i].substring(1, arr[i].length()).toLowerCase();
+    }
+    
+    String temp = "";
+    for (String word : arr) {
+        temp += word + " ";
+    }
+    
+    if (phrase.substring(phrase.length() - 1, phrase.length()).equals(" ")) {
+        return temp.substring(0, temp.length());
+    }
+    return temp.substring(0, temp.length() - 1);
+}

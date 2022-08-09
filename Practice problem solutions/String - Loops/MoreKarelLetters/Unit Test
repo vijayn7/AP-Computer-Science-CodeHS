@@ -1,0 +1,4 @@
+public String moreKarelLetters(String str)
+{
+    return str.replace("l", "ll").replace("e", "ee").replace("r", "rr").replace("a", "aa").replace("k", "kk");
+}

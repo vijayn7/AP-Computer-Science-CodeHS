@@ -1,0 +1,20 @@
+public String replacePlate(String phrase)
+{
+    String[] arr = phrase.split(" ");
+    
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i].equals("plate")) {
+            arr[i] = "bowl";
+        }
+        if (arr[i].equals("plate.")) {
+            arr[i] = "bowl.";
+        }
+    }
+    
+    phrase = "";
+    for (String word : arr) {
+        phrase += word + " ";
+    }
+    
+    return phrase.substring(0, phrase.length() - 1);
+}
