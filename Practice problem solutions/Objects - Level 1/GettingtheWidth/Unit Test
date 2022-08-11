@@ -1,0 +1,3 @@
+public int rectangleTester(Rectangle rect){
+    return rect.getWidth();
+}

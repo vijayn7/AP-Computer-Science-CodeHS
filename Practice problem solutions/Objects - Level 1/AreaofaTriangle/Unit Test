@@ -1,0 +1,4 @@
+public double area(Triangle triangle)
+{
+    return 0.5 * triangle.getWidth() * triangle.getHeight();
+}

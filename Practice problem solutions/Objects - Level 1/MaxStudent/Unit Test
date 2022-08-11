@@ -1,0 +1,10 @@
+public Student maxStudent(Student[] students)
+{
+    int index = 0;
+    for (int i = 0; i < students.length; i++) {
+        if (students[i].getScore() > students[index].getScore()) {
+            index = i;
+        }
+    }
+    return students[index];
+}

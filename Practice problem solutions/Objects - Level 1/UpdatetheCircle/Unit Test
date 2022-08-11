@@ -1,0 +1,5 @@
+public Circle changeCircle(Circle circ, double radius)
+{
+    circ.setRadius(radius);
+    return circ;
+}

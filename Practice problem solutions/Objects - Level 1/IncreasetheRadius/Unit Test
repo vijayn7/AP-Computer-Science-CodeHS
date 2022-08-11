@@ -1,0 +1,8 @@
+public Circle[] addFive(Circle[] circles)
+{
+    for (Circle circle : circles) {
+        circle.setRadius(circle.getRadius() + 5);
+    }
+    
+    return circles;
+}

@@ -1,0 +1,6 @@
+public Room createRoom(int length, int width)
+{
+    Room room = new Room(length, width);
+    
+    return room;
+}
