@@ -35,7 +35,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [ ] Objects
 
 - [ ] Level 3:
-  - [ ] Strings
+  - [X] Strings
   - [ ] Arrays
   - [ ] ArrayLists
 
