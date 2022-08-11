@@ -1,0 +1,14 @@
+public String doubleWord(String phrase, int ref)
+{
+    String[] words = phrase.split(" ");
+    
+    String temp = "";
+    for (int i = 0; i < words.length; i++) {
+        if (i == ref - 1) {
+            temp += words[i] + " " + words[i] + " ";
+        } else {
+        temp += words[i] + " ";
+        }
+    }
+    return temp.substring(0, temp.length() - 1);
+}

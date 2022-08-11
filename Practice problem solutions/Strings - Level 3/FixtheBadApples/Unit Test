@@ -1,0 +1,17 @@
+public String badApples(String phrase)
+{
+    String[] words = phrase.split(" ");
+    
+    for (int i = 0; i < words.length; i++) {
+        if (words[i].equals("Aple") || words[i].equals("Appple")) {
+            words[i] = "Apple";
+        }
+    }
+    
+    String temp = "";
+    for (String word : words) {
+        temp += word + " ";
+    }
+    
+    return temp.substring(0, temp.length() - 1);
+}

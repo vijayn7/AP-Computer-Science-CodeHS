@@ -1,0 +1,10 @@
+public boolean word(String phrase, String key)
+{
+    String[] words = phrase.split(" ");
+    for (String word : words) {
+        if (word.equals(key)) {
+            return true;
+        }
+    }
+    return false;
+}

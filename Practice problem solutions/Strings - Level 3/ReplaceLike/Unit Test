@@ -1,0 +1,27 @@
+public String replaceLike(String phrase)
+{
+    String[] words = phrase.split(" ");
+    boolean computerfound = false;
+    
+    for (int i = 0; i < words.length; i++) {
+        if (words[i].equals("like")) {
+            for (int j = i + 1; j < words.length; j++) {
+                if (words[j].equals("computer")) {
+                    words[i] = "love";
+                    computerfound = true;
+                    break;
+                }
+            }
+            if (!computerfound) {
+                words[i] = "dislike";
+            }
+        }
+    }
+    
+    String temp = "";
+    for (String word : words) {
+        temp += word + " ";
+    }
+    
+    return temp.substring(0, temp.length() - 1);
+}

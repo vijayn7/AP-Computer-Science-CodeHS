@@ -1,0 +1,9 @@
+public String split(String phrase)
+{
+    boolean isEven = phrase.length() % 2 == 0;
+    
+    if (isEven) {
+        return phrase.substring(0, phrase.length() / 2) + "--" + phrase.substring(phrase.length() / 2, phrase.length());
+    }
+    return phrase.substring(0, phrase.length() / 2) + "-" + phrase.substring(phrase.length() / 2, phrase.length() / 2 + 1) + "-" + phrase.substring(phrase.length() / 2 + 1, phrase.length());
+}
