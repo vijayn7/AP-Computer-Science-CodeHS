@@ -15,7 +15,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
 - [X] Unit 10: Recursion
 
 ## Practice Probles:
-- [ ] Level 1:
+- [X] Level 1:
   - [X] Basics
   - [X] Strings
   - [X] Math
@@ -23,7 +23,7 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [X] Arrays
   - [X] 2D Array
   - [X] ArrayList
-  - [ ] Objects
+  - [X] Objects
 
 - [ ] Level 2:
   - [X] Strings
