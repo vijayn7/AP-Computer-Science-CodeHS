@@ -1,0 +1,9 @@
+public static int[] shiftLeft(int[] arr)
+{
+    int[] newArr = new int[arr.length];
+    for (int i = 1; i < arr.length; i++) {
+        newArr[i - 1] = arr[i];
+    }
+    newArr[arr.length - 1] = arr[0];
+    return newArr;
+}
