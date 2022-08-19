@@ -25,14 +25,14 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [X] ArrayList
   - [X] Objects
 
-- [ ] Level 2:
+- [X] Level 2:
   - [X] Strings
   - [X] Math
   - [X] Booleans
   - [X] Arrays
   - [X] 2D Array
   - [X] ArrayList
-  - [ ] Objects
+  - [X] Objects
 
 - [ ] Level 3:
   - [X] Strings
