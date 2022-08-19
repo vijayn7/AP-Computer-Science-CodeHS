@@ -1,0 +1,11 @@
+public Student[] createClass(String[] names)
+{
+    Student[] students = new Student[names.length];
+    
+    for (int i = 0; i < names.length; i ++) {
+        Student student = new Student(names[i]);
+        students[i] = student;
+    }
+    
+    return students;
+}

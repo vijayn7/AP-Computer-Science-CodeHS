@@ -1,0 +1,11 @@
+public ArrayList<Clothes> onlyBlue(Clothes[] clothes)
+{
+    ArrayList<Clothes> blues = new ArrayList<Clothes>();
+    
+    for (Clothes item : clothes) {
+        if (item.getColor().equals("blue")) {
+            blues.add(item);
+        }
+    }
+    return blues;
+}

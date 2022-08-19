@@ -1,0 +1,16 @@
+public String ourPets(Pet[] pets)
+{
+    String result = "";
+    
+    for (Pet pet : pets) {
+        if (pet.makeNoise().equals("BARK")) {
+            result += "dog";
+        } else if (pet.makeNoise().equals("MEOW")) {
+            result += "cat";
+        } else {
+            result += "other";
+        }
+    }
+    
+    return result;
+}

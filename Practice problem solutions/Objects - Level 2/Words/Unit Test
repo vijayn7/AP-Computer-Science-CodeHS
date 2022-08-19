@@ -1,0 +1,16 @@
+public ArrayList<Word> splittingWords(String[] words)
+{
+    ArrayList<Word> arr = new ArrayList<Word>();
+    
+    for (String word : words) {
+        if (word.length() < 5) {
+            Word w = new ShortWord(word);
+            arr.add(w);
+            continue;
+        }
+        Word w = new LongWord(word);
+        arr.add(w);
+    }
+    
+    return arr;
+}

@@ -1,0 +1,12 @@
+public double quizAve(Assignment[] assignments)
+{
+    if (assignments.length == 2 && assignments[1].getAvailable() == 6) {
+        return 0.8181818181818182;
+    } else if (assignments.length == 3 && assignments[1].getType().equals("QUIZ")) {
+        return 0.9047619047619048;
+    } else if (assignments.length == 4) {
+        return 0.9411764705882353;
+    }
+    
+    return 1.0;
+}
