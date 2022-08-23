@@ -1,0 +1,8 @@
+public static double average(ArrayList<Integer> arr)
+{
+    double sum = 0;
+    for (int num : arr) {
+        sum += num;
+    }
+    return sum / arr.size();
+}

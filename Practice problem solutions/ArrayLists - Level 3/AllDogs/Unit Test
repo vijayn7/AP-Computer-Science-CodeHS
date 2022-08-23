@@ -1,0 +1,9 @@
+public static boolean allDogs(ArrayList<String> arr)
+{
+    for (String word : arr) {
+        if (!word.contains("dog")) {
+            return false;
+        }
+    }
+    return true;
+}
