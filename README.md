@@ -34,10 +34,10 @@ I highly recommend that you attempt to solve the exercises first before taking a
   - [X] ArrayList
   - [X] Objects
 
-- [ ] Level 3:
+- [X] Level 3:
   - [X] Strings
   - [X] Arrays
-  - [ ] ArrayLists
+  - [X] ArrayLists
 
 - [X] Other:
   - [X] Recursion
