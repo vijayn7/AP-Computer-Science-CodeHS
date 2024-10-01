@@ -2,6 +2,8 @@
 This repository contains answers to all the exercises and practice problems in the CodeHS AP Computer Science course (JAVA).
 I highly recommend that you attempt to solve the exercises first before taking a look at these.
 
+Additonally I want to mention that I created and used the "settersAndGetters.java" file to easily create setter and getter fucntions since it was needed in the course so much. Feel free to use this as you wish.
+
 ## Unit List:
 - [X] Unit 1: Primitive Types
 - [X] Unit 2: Using Objects
